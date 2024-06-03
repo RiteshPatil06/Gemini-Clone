@@ -1,0 +1,28 @@
+/* src/components/PromptBar.css */
+.prompt-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .prompt-bar input[type="text"] {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+  }
+  
+  .prompt-bar-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .prompt-bar-icons img {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
